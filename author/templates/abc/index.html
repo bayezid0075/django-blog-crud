@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    {% if loged == True %}
+    <h3>go to login 🥰</h3>
+    {% else %}
+    <h1 style="color: red">{{title}}</h1>
+    {%endif%}
+  </body>
+</html>
